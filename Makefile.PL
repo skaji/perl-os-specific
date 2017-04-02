@@ -16,5 +16,8 @@ WriteMakefile
     LICENSE => "perl",
     NAME => "Acme::OsSpecific",
     PREREQ_PM => \%prereq,
-    VERSION_FROM => "lib/Acme/OsSpecific.pm",
+    VERSION => "0.01",
+    META_MERGE => {
+        dynamic_config => 1,
+    },
 ;
