@@ -8,5 +8,5 @@ It's sometimes annoying to install os specific modules, such as
 This repo may help that. Just type:
 
 ```
-$ cpanm -nq git://github.com/skaji/perl-os-specific.git
+$ cpm install -g https://github.com/skaji/perl-os-specific.git
 ```
