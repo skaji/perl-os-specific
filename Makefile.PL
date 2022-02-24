@@ -8,7 +8,7 @@ my $arch = (POSIX::uname)[4];
 
 my %prereq;
 if ($^O eq "darwin" and $arch eq "x86_64") {
-    # $prereq{"Mac::FSEvents"} = 0;
+    $prereq{"Mac::FSEvents"} = 0;
 }
 if ($^O eq "linux") {
     $prereq{"Linux::Inotify2"} = 0;
