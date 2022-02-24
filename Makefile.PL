@@ -7,7 +7,7 @@ use POSIX ();
 my $arch = (POSIX::uname)[4];
 
 my %prereq;
-if ($^O eq "darwin" and $arch eq "x86_64") {
+if ($^O eq "darwin") {
     $prereq{"Mac::FSEvents"} = 0;
 }
 if ($^O eq "linux") {
